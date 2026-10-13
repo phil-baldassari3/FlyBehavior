@@ -5,7 +5,7 @@
 
 date_stamp=`date -I`
 
-prefix="/home/rpi-0/Desktop/pi_record_logs/${date_stamp}"
+prefix="path/to/pi_record_logs/${date_stamp}"
 
 record_copulation_assay.py <len position> <path/to/save/direcoty> \
     > "${prefix}_stdout.txt" \
